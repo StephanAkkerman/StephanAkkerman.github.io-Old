@@ -1,0 +1,32 @@
+languages:
+  - item: Python
+  - item: C#
+  - item: Haskell
+  - item: HTML
+  - item: CSS/Sass
+  - item: SQL
+  - item: NetLogo
+  - item: PHP
+  - item: R
+
+frameworks:
+  - item: TensorFlow
+  - item: Ray
+  - item: TensorTrade
+  - item: MySQL
+  - item: PyQt5
+
+libraries:
+  - item: Pandas
+  - item: NumPy
+  - item: Matplotlib
+  - item: pyqtgraph
+  - item: FinPlot
+  - item: Binance API
+  - item: CCXT
+
+tools:
+  - item: Git & Github
+  - item: VS code
+  - item: phpMyAdmin
+  - item: ProcessMaker

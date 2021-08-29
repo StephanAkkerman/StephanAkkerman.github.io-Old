@@ -1,0 +1,39 @@
+<section class="section experience">
+  <div class="section__title">Experience</div>
+  <div class="section__content">
+    <div class="jobs">
+      {% for job in site.data.experience %}
+      <div class="job">
+        <div class="time-place">
+          <div class="job__company">
+            <a href="{{job.url}}" target="_blank">{{job.company}}</a>
+          </div>
+          <div class="job__time">{{job.time}}</div>
+        </div>
+        <div class="job__position">{{job.position}}</div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a>
+  </div>
+</section>
+
+<section class="section other-projects"> 
+  <div class="section__title">Publications</div> 
+  <div class="section__content"> 
+    <div class="project"> 
+      <div class="project__name"> 
+        <a href="https://dspace.library.uu.nl/handle/1874/404061" target="_blank" class="arrow-link text-wrap">
+          Automatically trading small market capitalization cryptocurrencies using reinforcement learning</a> 
+        </div> 
+        <p>
+          <em><strong>S.W.H. Akkerman</strong></em>, Natasha Alechina, Dominik Klein
+        </p> 
+        <div class="project__used"> <span class="project__used__item">
+          (2021) Faculty of Humanities Theses, Cryptocurrency; Reinforcement learning; Artificial intelligence;
+        </span> 
+      </div> 
+    </div> 
+  </div> 
+</section>

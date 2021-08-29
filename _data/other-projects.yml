@@ -1,0 +1,35 @@
+- name: TensorTrade Extras
+  url: https://github.com/StephanAkkerman/TensorTradeExtras
+  code: https://github.com/StephanAkkerman/TensorTradeExtras
+  description: This repo hosts all of the extras one can use when using TensorTrade.
+  used:
+    - thing: Python
+    - thing: TensorFlow
+    - thing: PyTorch
+    - thing: Ray
+
+- name: Crypto OHLCV
+  url: https://github.com/StephanAkkerman/Crypto_OHLCV
+  code: https://github.com/StephanAkkerman/Crypto_OHLCV
+  description: Another project to support TensorTrade, it gets the historical OHLCV data of a supported crypto exchange and converts it to a readible DataFrame.
+  used:
+    - thing: Python
+    - thing: Pandas
+    - thing: CCXT
+
+- name: Binance Spot Trailing Stop Loss
+  url: https://github.com/StephanAkkerman/Binance_Trailing_Stop_Loss
+  code: https://github.com/StephanAkkerman/Binance_Trailing_Stop_Loss
+  description: Binance does not offer a trailing stop loss for spot trading, running this on a server with your API keys will make every stop loss a trailing stop loss.
+  used:
+    - thing: Python
+    - thing: Binance API
+    - thing: Pandas
+
+- name: Asteroids
+  url: https://github.com/StephanAkkerman/Asteroids
+  code: https://github.com/StephanAkkerman/Asteroids
+  description: A replication of the game Asteroids written in Haskell.
+  used:
+    - thing: Haskell
+    - thing: Graphics.Gloss
